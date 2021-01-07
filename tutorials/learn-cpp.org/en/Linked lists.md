@@ -49,7 +49,7 @@ Let's define a linked list:
     public:
         LinkedList()
         {
-            head = nullprt;
+            head = nullptr;
             tail = nullptr;
         }
     
@@ -91,7 +91,7 @@ Let's add this method to the LinkedList class:
     public:
         LinkedList()
         {
-            head = nullprt;
+            head = nullptr;
             tail = nullptr;
         }
 
@@ -129,7 +129,7 @@ After printing the value of the node, we set the `current` pointer to the next n
     public:
         LinkedList()
         {
-            head = nullprt;
+            head = nullptr;
             tail = nullptr;
         }
 
@@ -237,7 +237,7 @@ C++ code for insertion of node would be as follows:
           Node *pre = new Node;
           Node *current = new Node;
           Node *temp = new Node;
-          cur = head;
+          current = head;
 
           for(int i = 1; i < pos; i++)
           {
